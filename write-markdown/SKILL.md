@@ -33,15 +33,14 @@ This ensures all Markdown changes follow project conventions and style guideline
 
 ## Markdown Style Guide
 
-This project follows the CommonMark specification for Markdown formatting:
-
 1. **Headings**: Use ATX headings (h1-h6) with # symbols instead of setext headings
 2. **Code blocks**: Use fenced code blocks with language identifiers
-3. **Lists**: Preserve existing bullet list markers
+3. **Lists**: Preserve existing bullet list markers; ensure they are followed by exactly 1 space
 4. **Sentences**: Write one sentence per line outside of code blocks
 5. **Formatting**: Follow the project's specific Markdown conventions
 6. **Whitespace**: Never add trailing whitespace at the end of a line
 7. **End of file**: Every file must end with a newline character
+8. **Footnotes**: Preserve indentation of multi-line footnotes
 
 ## Documentation Conventions
 
@@ -50,7 +49,6 @@ This project follows the CommonMark specification for Markdown formatting:
 - Include language identifiers in all fenced code blocks
 - Every line of prose text (outside code blocks) must contain exactly one sentence
 - Every sentence of prose text (outside code blocks) must be on one line
-- Follow the CommonMark specification for all Markdown elements
 - Ensure all links are properly formatted and functional
 - Use consistent terminology with existing documentation
 
