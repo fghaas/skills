@@ -1,0 +1,19 @@
+---
+default:
+  image: 'python:3'
+  before_script:
+    - pip install tox
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+stages:
+  - build
+  - test
+  - deploy
+
+lint:
+  stage: build
+  script:
+    - tox -e gitlint
+    - tox
