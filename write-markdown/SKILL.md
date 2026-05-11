@@ -3,7 +3,7 @@ name: write-markdown
 description: >-
   Create or modify Markdown documentation in this project following the project's style guide and conventions.
   Use this skill when the user needs to write or update documentation, ensuring adherence to project standards for Markdown formatting, structure, and content.
-  **IMPORTANT**: This skill MUST be consulted BEFORE making any modifications to Markdown files.
+  **IMPORTANT**: This skill MUST be consulted BEFORE making any modifications to Markdown files (including, but not limited to, all files whose name ends in .md).
 license: MIT
 compatibility: opencode
 metadata:
@@ -33,13 +33,13 @@ This ensures all Markdown changes follow project conventions and style guideline
 
 ## Markdown Style Guide
 
-1. **Headings**: Use ATX headings (h1-h6) with # symbols instead of setext headings
+1. **Headings**: Use ATX headings (h1-h6) with `#` symbols instead of setext headings
 2. **Code blocks**: Use fenced code blocks with language identifiers
-3. **Lists**: Preserve existing bullet list markers; ensure they are followed by exactly 1 space
+3. **Lists**: Preserve existing bullet list markers; bullets MUST be followed by exactly 1 space
 4. **Sentences**: Write one sentence per line outside of code blocks
 5. **Formatting**: Follow the project's specific Markdown conventions
-6. **Whitespace**: Never add trailing whitespace at the end of a line
-7. **End of file**: Every file must end with a newline character
+6. **Whitespace**: A line MUST NOT end in trailing whitespace
+7. **End of file**: Every file MUST end with a newline character
 8. **Footnotes**: Preserve indentation of multi-line footnotes
 
 ## Documentation Conventions
@@ -47,8 +47,8 @@ This ensures all Markdown changes follow project conventions and style guideline
 - All documentation should follow the project's existing structure and tone
 - Use the appropriate heading levels (`#` for main titles, `##` for sections, etc.)
 - Include language identifiers in all fenced code blocks
-- Every line of prose text (outside code blocks) must contain exactly one sentence
-- Every sentence of prose text (outside code blocks) must be on one line
+- Every line of prose text (outside code blocks) MUST contain exactly one sentence
+- Every sentence of prose text (outside code blocks) MUST be on one line
 - Ensure all links are properly formatted and functional
 - Use consistent terminology with existing documentation
 
