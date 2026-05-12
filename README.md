@@ -2,7 +2,7 @@
 
 A reusable set of skill definitions for use in your repository, reflecting reasonable (though opinionated) guidelines for agentic coding assistants.
 
-These skills are regularly tested against [Cleura AI](https://ai.cleura.cloud) and [OpenCode](https://opencode.ai).
+These skills are regularly tested against [Cleura AI](https://ai.cleura.cloud) and [OpenCode](https://opencode.ai), but they are **experimental**.
 
 ## How to include
 
