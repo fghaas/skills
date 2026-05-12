@@ -58,6 +58,7 @@ The allowed types are:
 
 ## Commit Process
 
+0. If you're currently on `main` or `master`, create a suitably named topic branch and check it out
 1. Ensure your changes are staged with `git add`
 2. Create the commit with a descriptive message following the format above
 3. Verify your commit with `git log` to ensure it follows the conventions
