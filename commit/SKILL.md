@@ -2,7 +2,7 @@
 name: commit
 description: >-
   Create Git commits following project conventions for commit messages, branch naming, and commit practices.
-  Use this skill when the user wants to create a commit or needs guidance on proper Git commit formatting, including conventional commit types, required metadata like Assisted-By, and project-specific requirements like topic branches and pre-commit hooks.
+  Use this skill when the user wants to create a commit or needs guidance on proper Git commit formatting, including conventional commit types, required metadata like Assisted-by, and project-specific requirements like topic branches and pre-commit hooks.
   **IMPORTANT**: This skill MUST be consulted BEFORE attempting any Git commit operations.
 license: MIT
 compatibility: opencode
@@ -21,7 +21,7 @@ Use this skill when:
 
 - Creating Git commits that follow the project's conventional commit format
 - Needing guidance on proper commit message structure with type prefixes
-- Wanting to ensure commits include required metadata like `Assisted-By: <tool>/<model>`
+- Wanting to ensure commits include required metadata like `Assisted-by: <tool>/<model>`
 - Preparing commits that must follow project requirements for topic branches
 - Needing to understand Git hook requirements and commit validation practices
 
@@ -47,7 +47,7 @@ The allowed types are:
 
 ## Commit Requirements
 
-- Always include `Assisted-By: <tool>/<model>` in the commit message
+- Always include `Assisted-by: <tool>/<model>` in the commit message
 - Never include emoji in commit messages
 - All commits must be independently testable and correct
 - Series are always unsquashed; each commit must be independently testable and correct
