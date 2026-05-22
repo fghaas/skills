@@ -19,10 +19,8 @@ This skill provides instructions for creating Git commits in this project accord
 
 Use this skill when:
 
-- Creating Git commits that follow the project's conventional commit format
+- Creating or amending Git commits
 - Needing guidance on proper commit message structure with type prefixes
-- Wanting to ensure commits include required metadata like `Assisted-by: <tool>/<model>`
-- Preparing commits that must follow project requirements for topic branches
 - Needing to understand Git hook requirements and commit validation practices
 
 ## Commit Message Format
