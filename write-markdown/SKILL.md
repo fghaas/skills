@@ -47,8 +47,8 @@ This ensures all Markdown changes follow project conventions and style guideline
 - All documentation should follow the project's existing structure and tone
 - Use the appropriate heading levels (`#` for main titles, `##` for sections, etc.)
 - Include language identifiers in all fenced code blocks
-- Every line of prose text (outside code blocks) MUST contain exactly one sentence
-- Every sentence of prose text (outside code blocks) MUST be on one line
+- Sentences MUST NOT break across lines
+- Lines MUST NOT contain more than one sentence
 - Ensure all links are properly formatted and functional
 - Use consistent terminology with existing documentation
 
