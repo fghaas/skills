@@ -51,7 +51,8 @@ The allowed types are:
 - Series are always unsquashed; each commit must be independently testable and correct
 - Do not commit to the `master` or `main` branch directly
 - All modifications require a topic branch
-- Never bypass Git hooks (`--no-verify` option)
+- Never amend commits you did not create
+- Never bypass Git hooks (in other words: never use the `--no-verify` option)
 - Use the `git config core.hooksPath .githooks` configuration to enable pre-commit and pre-push hooks
 
 ## Commit Process
@@ -60,8 +61,7 @@ The allowed types are:
 1. Ensure your changes are staged with `git add`
 2. Create the commit with a descriptive message following the format above
 3. Verify your commit with `git log` to ensure it follows the conventions
-4. Push your changes to a remote topic branch
-5. If pushing to a remote, ensure you push the commit and any associated tag (if applicable)
+4. Never push any commit or a branch to a remote unless explicitly instructed to
 
 ## Example Commit Message
 
